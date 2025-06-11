@@ -1,33 +1,32 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-
-st.title("Hello Students ❤️‍🔥")
-st.header("👨🏾‍💻 VCET STUDENTS 👩‍💻")
-st.subheader("INTERNSHIP ")
-st.write("# WELCOME TO VINSUP 😊")
-st.text("GOOD MORNING STUDENTS 😊")
-st.code("""
-#include <stdio.h>
-int main()
-{
-printf("HOW IS THE INTERNSHIP");
-return 0;
-}""",language="c")
-st.latex(r"E=mc^2")
-st.latex(r"Area of Rectangle = l*b")
-st.metric(label="Temperature",value="75°",delta="-1.24°")
-st.progress(0.5)
-st.progress(0.5,text="50%")
-st.progress(0.8,text="100%")
-st.text_input("ENTER YOUR NAME")
-st.text_input("ENTER THE NAME OF COLLEGE")
-st.multiselect("SELECT YOUR SKILLS YOU HAVE",["COMMUNICATION","TEAM HANDLING","TECHNICAL IDEAS","SPEAKING"])
-st.number_input("ENTER YOUR AGE")
-st.slider(label="SELECT YOUR AGE",min_value=0,max_value=100,value=18)
-st.date_input("ENTER YOUR DATE OF BIRTH")
-st.checkbox(" I AGREE THE TERMS OF CONDITIONS")
-st.radio("SELECT YOUR GENDER",["Male 👦🏻","Female 👩🏻","Others ⚧"])
-st.multiselect("SELECT YOUR COUNTRY",["INDIA","CANADA","USA","AUSTRALIA"])
+# st.title("Hello Students ❤️‍🔥")
+# st.header("👨🏾‍💻 VCET STUDENTS 👩‍💻")
+# st.subheader("INTERNSHIP ")
+# st.write("# WELCOME TO VINSUP 😊")
+# st.text("GOOD MORNING STUDENTS 😊")
+# st.code("""
+# #include <stdio.h>
+# int main()
+# {
+# printf("HOW IS THE INTERNSHIP");
+# return 0;
+# }""",language="c")
+# st.latex(r"E=mc^2")
+# st.latex(r"Area of Rectangle = l*b")
+# st.metric(label="Temperature",value="75°",delta="-1.24°")
+# st.progress(0.5)
+# st.progress(0.5,text="50%")
+# st.progress(0.8,text="100%")
+# st.text_input("ENTER YOUR NAME")
+# st.text_input("ENTER THE NAME OF COLLEGE")
+# st.multiselect("SELECT YOUR SKILLS YOU HAVE",["COMMUNICATION","TEAM HANDLING","TECHNICAL IDEAS","SPEAKING"])
+# st.number_input("ENTER YOUR AGE")
+# st.slider(label="SELECT YOUR AGE",min_value=0,max_value=100,value=18)
+# st.date_input("ENTER YOUR DATE OF BIRTH")
+# st.checkbox(" I AGREE THE TERMS OF CONDITIONS")
+# st.radio("SELECT YOUR GENDER",["Male 👦🏻","Female 👩🏻","Others ⚧"])
+# st.multiselect("SELECT YOUR COUNTRY",["INDIA","CANADA","USA","AUSTRALIA"])
 
 with st.sidebar:
     st.title(" MENU BAR 🧾")
